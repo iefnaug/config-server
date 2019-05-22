@@ -13,3 +13,4 @@ spring:
     url: jdbc:mysql:///cloud?characterEncoding=utf-8&useSSL=false
   jpa:
     show-sql: true
+env: dev
