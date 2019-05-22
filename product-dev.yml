@@ -14,3 +14,4 @@ spring:
   jpa:
     show-sql: true
 env: dev
+name: gf
