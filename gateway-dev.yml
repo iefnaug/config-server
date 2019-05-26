@@ -1,1 +1,6 @@
-
+zuul:
+  routes:
+    myOrder: #此处的名字可以随意
+      path: /myOrder/**
+      serviceId: order
+      sensitiveHeaders:
